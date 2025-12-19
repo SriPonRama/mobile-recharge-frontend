@@ -45,7 +45,7 @@ const Landing = () => {
       <nav className="fixed top-0 w-full z-50 bg-slate-900/90 backdrop-blur-lg border-b border-slate-700">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <h1 className="text-2xl md:text-3xl font-bold text-white">
-            MobileHub
+            RechargeHub
           </h1>
           <div className="hidden md:flex space-x-4">
             <Link to="/plans" className="px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg font-semibold transition-all duration-200 transform hover:scale-105">
@@ -115,7 +115,7 @@ const Landing = () => {
               </div>
 
               {/* Right Side - Video */}
-              <div className="flex justify-center lg:justify-end">
+              <div className="flex justify-center lg:justify-start pr-4 md:pr-8 lg:pr-12">
                 <div className="w-full max-w-md lg:max-w-lg">
                   <video 
                     src="/asset/video.mp4" 
@@ -137,7 +137,7 @@ const Landing = () => {
           <div className="container mx-auto px-4 py-20">
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-                Why Choose MobileHub?
+                Why Choose RechargeHub?
               </h2>
               <p className="text-xl text-slate-300 max-w-3xl mx-auto">
                 We've revolutionized mobile recharging with cutting-edge technology and user-centric design
@@ -185,7 +185,7 @@ const Landing = () => {
                 Ready to Experience the Future?
               </h3>
               <p className="text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
-                Join MobileHub today and never worry about mobile recharge again. 
+                Join RechargeHub today and never worry about mobile recharge again. 
                 Fast, secure, and always reliable.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
