@@ -26,7 +26,7 @@ const Navbar = () => {
     <nav className="bg-gradient-to-r from-amber-600 to-orange-600 shadow-xl">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link to="/dashboard" className="flex items-center space-x-2">
-          <h1 className="text-2xl font-bold text-white">MobileHub</h1>
+          <h1 className="text-2xl font-bold text-white">RechargeHub</h1>
         </Link>
         <div className="flex items-center gap-6">
           {isAuthenticated && (
