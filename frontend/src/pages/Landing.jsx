@@ -73,7 +73,7 @@ const Landing = () => {
           <div className="container mx-auto px-4 py-20">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               {/* Left Side - Slogan and Content */}
-              <div className="text-white space-y-8">
+              <div className="text-white space-y-8 pl-4 md:pl-8 lg:pl-12">
                 <div className="space-y-4">
                   <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
                     Recharge
