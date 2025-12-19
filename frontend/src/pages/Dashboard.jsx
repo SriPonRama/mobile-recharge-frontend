@@ -5,6 +5,7 @@ import axios from 'axios';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Snowfall from '../components/Snowfall';
+import config from '../config';
 
 const Dashboard = () => {
   const { user } = useAuth();
@@ -22,7 +23,7 @@ const Dashboard = () => {
   const fetchDashboardData = async () => {
     try {
       const token = localStorage.getItem('token');
-      const response = await axios.get('/api/transactions/user', {
+      const response = await axios.get(`${config.API_URL}/transactions/user`, {
         headers: { Authorization: `Bearer ${token}` }
       });
       
