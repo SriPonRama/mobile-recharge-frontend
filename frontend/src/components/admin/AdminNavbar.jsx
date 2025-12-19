@@ -15,7 +15,7 @@ const AdminNavbar = ({ activeTab, setActiveTab }) => {
     <nav className="fixed top-0 left-0 right-0 bg-gradient-to-r from-slate-800 to-slate-900 shadow-xl z-50">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center flex-nowrap">
         <h1 className="text-2xl font-bold text-white">
-          MobileHub Admin
+          RechargeHub Admin
         </h1>
         
         <div className="flex items-center space-x-6">
